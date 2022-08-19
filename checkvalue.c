@@ -13,7 +13,7 @@ int checkval(char *value, unsigned int line_numer)
     }
     while (value)
     {
-    if(!digit(value))
+    if(!isdigit(value))
     {
     fprintf(stderr, "L%u: usage: push integer\n", line_number);
     exit(EXIT_FAILURE);
