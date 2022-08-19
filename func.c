@@ -1,5 +1,10 @@
 #include "monty.h"
-
+/**
+ * @brief 
+ * 
+ * @param stack 
+ * @param line_number 
+ */
 void push (struct stack_t** stack, unsigned int line_number)
 {
 stack_t newNode;
