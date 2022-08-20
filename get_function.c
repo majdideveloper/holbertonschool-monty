@@ -1,3 +1,4 @@
+#include"monty.h"
 /**
  * get_opc - function to handle the opcode
  * @stack: is a stack or queue
@@ -18,13 +19,8 @@ int get_opc(stack_t **stack, char *arg, char *item, int count)
 		{"pop", _pop},
 		{"swap", _swap},
 		{"add", _add},
-		{"sub", _sub},
 		{"nop", _nop},
-		{"div", _div},
-		{"mul", _mul},
-		{"mod", _mod},
-		{"pchar", _pchar},
-		{"pstr", _pstr},
+
 		{NULL, NULL}
 	};
 
